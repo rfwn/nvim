@@ -39,9 +39,11 @@ require('lazy').setup({
 
   require 'kickstart/plugins/highlight-colors',
 
+  -- require 'kickstart/plugins/indent_line',
+
   -- require 'kickstart/plugins/themer',
 
-  require 'kickstart/plugins/precognition',
+  -- require 'kickstart/plugins/precognition',
   -- require 'kickstart/plugins/cheatsheet',
 
   require 'kickstart/plugins/surround',

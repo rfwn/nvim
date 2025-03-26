@@ -63,7 +63,7 @@ if has("gui_running") || &t_Co == 256
     "hi CmpItemAbbrDeprecated cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE 
     hi CmpItemAbbrMatch cterm=NONE ctermfg=75 ctermbg=NONE gui=bold guifg=#ff0000 guibg=NONE
     "hi CmpItemAbbrMatchFuzzy cterm=NONE ctermfg=75 ctermbg=NONE gui=bold guifg=#00bfff guibg=NONE
-    hi CmpItemMenu cterm=NONE ctermfg=135 ctermbg=NONE gui=italic guifg=#a020f0 guibg=NONE
+    hi CmpItemMenu cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#870000 guibg=NONE
 
     hi CmpItemKindField cterm=NONE ctermfg=250 ctermbg=88 gui=NONE guifg=#bcbcbc guibg=#080808
     hi CmpItemKindProperty cterm=NONE ctermfg=250 ctermbg=88 gui=NONE guifg=#bcbcbc guibg=#080808
@@ -90,6 +90,7 @@ if has("gui_running") || &t_Co == 256
     hi CmpItemKindInterface cterm=NONE ctermfg=194 ctermbg=73 gui=NONE guifg=#bcbcbc guibg=#080808
     hi CmpItemKindColor cterm=NONE ctermfg=194 ctermbg=73 gui=NONE guifg=#bcbcbc guibg=#080808
     hi CmpItemKindTypeParameter cterm=NONE ctermfg=194 ctermbg=73 gui=NONE guifg=#bcbcbc guibg=#080808
+    hi IblIndent cterm=NONE ctermfg=194 ctermbg=73 gui=NONE guifg=#121212 guibg=#000000
        else
     hi Normal cterm=NONE ctermfg=Gray ctermbg=Black
     hi Keyword cterm=NONE ctermfg=White ctermbg=Black
